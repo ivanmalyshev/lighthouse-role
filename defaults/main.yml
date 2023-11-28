@@ -1,0 +1,6 @@
+---
+# defaults file for lighthouse-role
+lighthouse_repo: https://github.com/VKCOM/lighthouse.git
+lighthouse_location_dir: /home/ansible/lighthouse
+#lighthouse_location_dir: /root/lighthouse
+lighthouse_access_log_name: lighthouse_access
