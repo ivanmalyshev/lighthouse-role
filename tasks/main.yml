@@ -1,5 +1,7 @@
 ---
 # tasks file for lighthouse-role
+- include_tasks: nginx.yml
+  tags: [always]
 - name: Lighthouse ----- Installing Git
   become: true
   ansible.builtin.yum:
